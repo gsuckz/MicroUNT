@@ -1,0 +1,30 @@
+* NGSPICE file created from and.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_PLCS8W a_63_n150# a_n63_n176# a_33_n176# a_n125_n150#
++ VSUBS
+X0 a_63_n150# a_33_n176# a_n33_n150# VSUBS sky130_fd_pr__nfet_01v8 ad=0.465 pd=3.62 as=0.248 ps=1.83 w=1.5 l=0.15
+X1 a_n33_n150# a_n63_n176# a_n125_n150# VSUBS sky130_fd_pr__nfet_01v8 ad=0.248 pd=1.83 as=0.465 ps=3.62 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_527QMA a_63_n150# a_n33_n150# a_n63_n180# w_n161_n212#
++ a_33_n176# a_n125_n150#
+X0 a_63_n150# a_33_n176# a_n33_n150# w_n161_n212# sky130_fd_pr__pfet_01v8 ad=0.465 pd=3.62 as=0.248 ps=1.83 w=1.5 l=0.15
+X1 a_n33_n150# a_n63_n180# a_n125_n150# w_n161_n212# sky130_fd_pr__pfet_01v8 ad=0.248 pd=1.83 as=0.465 ps=3.62 w=1.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NDWVGB a_15_n75# a_n15_n101# a_n73_n75# VSUBS
+X0 a_15_n75# a_n15_n101# a_n73_n75# VSUBS sky130_fd_pr__nfet_01v8 ad=0.218 pd=2.08 as=0.218 ps=2.08 w=0.75 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_52K3FE a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212#
+X0 a_15_n150# a_n15_n176# a_n73_n150# w_n109_n212# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+and
+Xsky130_fd_pr__nfet_01v8_PLCS8W_0 m1_42_506# a_92_426# a_188_426# vss vss sky130_fd_pr__nfet_01v8_PLCS8W
+Xsky130_fd_pr__pfet_01v8_527QMA_0 m1_42_506# vdd a_92_426# vdd a_188_426# m1_42_506#
++ sky130_fd_pr__pfet_01v8_527QMA
+Xsky130_fd_pr__nfet_01v8_NDWVGB_0 out m1_42_506# vss vss sky130_fd_pr__nfet_01v8_NDWVGB
+Xsky130_fd_pr__pfet_01v8_52K3FE_0 out m1_42_506# vdd vdd sky130_fd_pr__pfet_01v8_52K3FE
+.ends
+

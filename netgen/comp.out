@@ -1,0 +1,52 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell bctr in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell xor in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XUMWGH in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_527QMA#1 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52FGJA in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_ND3UG5 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell and in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PLCS8W in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_527QMA in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52K3FE in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell ffdr3 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell dpg2 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XUMWGH#0 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_527QMA#0 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell inv in circuit counter4bMAG.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NDWVGB#0 in circuit counter4bMAG.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52K3FE#0 in circuit counter4bMAG.spice (0)(6 instances)
+Flattening unmatched subcell nor in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XUMWGH#1 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_52FGJA#0 in circuit counter4bMAG.spice (0)(3 instances)
+Flattening unmatched subcell and_gate in circuit counter4bspi.spice (1)(3 instances)
+Flattening unmatched subcell inv_gate in circuit counter4bspi.spice (1)(3 instances)
+Flattening unmatched subcell ffdr in circuit counter4bspi.spice (1)(4 instances)
+Flattening unmatched subcell tgate in circuit counter4bspi.spice (1)(16 instances)
+Flattening unmatched subcell nor_gate in circuit counter4bspi.spice (1)(8 instances)
+Flattening unmatched subcell inv_gate in circuit counter4bspi.spice (1)(12 instances)
+Flattening unmatched subcell xor_gate in circuit counter4bspi.spice (1)(4 instances)
+
+Class counter4bMAG.spice (0):  Merged 16 parallel devices.
+Subcircuit summary:
+Circuit 1: counter4bMAG.spice              |Circuit 2: counter4bspi.spice              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (77)               |sky130_fd_pr__nfet_01v8 (77)               
+sky130_fd_pr__pfet_01v8 (93->77)           |sky130_fd_pr__pfet_01v8 (77)               
+Number of devices: 154                     |Number of devices: 154                     
+Number of nets: 74                         |Number of nets: 74                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes counter4bMAG.spice and counter4bspi.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

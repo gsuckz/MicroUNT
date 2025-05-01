@@ -1,0 +1,118 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710270720
+<< nwell >>
+rect 24 832 28 884
+<< poly >>
+rect -6 958 226 996
+rect 192 914 224 958
+rect 98 436 128 556
+rect 194 434 224 558
+rect 98 160 134 242
+<< metal1 >>
+rect -10 990 60 996
+rect -10 938 0 990
+rect 52 938 60 990
+rect -10 930 60 938
+rect 78 882 86 884
+rect 84 880 86 882
+rect 18 874 88 880
+rect 18 822 28 874
+rect 80 822 88 874
+rect 18 814 88 822
+rect 312 872 384 878
+rect 312 820 322 872
+rect 374 820 384 872
+rect 312 812 384 820
+rect -60 656 8 662
+rect -60 604 -50 656
+rect 2 604 8 656
+rect -60 596 8 604
+rect -56 550 8 596
+rect 36 578 86 666
+rect 238 654 308 660
+rect 238 602 248 654
+rect 300 602 308 654
+rect 238 594 308 602
+rect 336 658 384 812
+rect -56 416 16 550
+rect 138 542 184 590
+rect 138 522 246 542
+rect 138 466 158 522
+rect 220 466 246 522
+rect 138 452 246 466
+rect -56 262 86 416
+rect 138 378 184 452
+rect 336 408 376 658
+rect -56 260 50 262
+rect 232 260 376 408
+rect 336 254 376 260
+rect 74 194 144 200
+rect 74 142 84 194
+rect 136 142 144 194
+rect 74 134 144 142
+<< via1 >>
+rect 0 938 52 990
+rect 28 822 80 874
+rect 322 820 374 872
+rect -50 604 2 656
+rect 248 602 300 654
+rect 158 466 220 522
+rect 84 142 136 194
+<< metal2 >>
+rect -30 990 404 1006
+rect -30 938 0 990
+rect 52 938 404 990
+rect -30 916 404 938
+rect 8 874 386 884
+rect 8 822 28 874
+rect 80 872 386 874
+rect 80 822 322 872
+rect 8 820 322 822
+rect 374 820 386 872
+rect 8 812 386 820
+rect -64 656 310 666
+rect -64 604 -50 656
+rect 2 654 310 656
+rect 2 604 248 654
+rect -64 602 248 604
+rect 300 602 310 654
+rect -64 588 310 602
+rect 140 522 376 534
+rect 140 466 158 522
+rect 220 466 376 522
+rect 140 454 376 466
+rect -50 194 382 204
+rect -50 142 84 194
+rect 136 142 382 194
+rect -50 124 382 142
+use grid#0  grid_0 /foss/designs/EAMTA2024/EAMTA/mag
+timestamp 1709738583
+transform 1 0 61 0 1 56
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_XUMWGH#0  sky130_fd_pr__nfet_01v8_XUMWGH_0
+timestamp 1710263695
+transform 1 0 161 0 1 335
+box -125 -101 125 101
+use sky130_fd_pr__pfet_01v8_527QMA  sky130_fd_pr__pfet_01v8_527QMA_0
+timestamp 1710263695
+transform 1 0 161 0 1 734
+box -162 -190 161 188
+use via_m1_p  via_m1_p_0 /foss/designs/EAMTA2024/EAMTA/mag
+timestamp 1646951168
+transform 1 0 74 0 1 132
+box 0 0 68 68
+use via_m1_p  via_m1_p_1
+timestamp 1646951168
+transform 1 0 -8 0 1 928
+box 0 0 68 68
+<< labels >>
+rlabel space 61 56 261 90 1 gnd
+rlabel space 85 1038 232 1072 1 V
+rlabel metal2 52 916 404 1006 1 ctrl
+rlabel metal2 136 124 382 204 1 nctrl
+rlabel via1 322 820 374 872 1 A
+rlabel metal2 220 454 376 534 1 C
+rlabel via1 -50 604 2 656 1 B
+<< end >>

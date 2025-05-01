@@ -1,0 +1,100 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710537314
+<< nwell >>
+rect 30 910 82 1008
+rect 226 908 278 1006
+rect 548 628 610 632
+rect 92 516 122 574
+<< poly >>
+rect 92 486 122 596
+rect 20 454 122 486
+rect 92 426 122 454
+rect 188 562 218 598
+rect 188 516 352 562
+rect 188 426 218 516
+rect 410 470 446 612
+rect 410 452 444 470
+rect 408 344 444 452
+rect 414 298 444 344
+<< metal1 >>
+rect 30 910 82 1008
+rect 226 908 278 1006
+rect 288 984 348 1034
+rect 354 876 404 1028
+rect -52 518 36 524
+rect -52 448 -46 518
+rect 30 448 36 518
+rect 122 504 186 618
+rect 296 576 374 582
+rect 296 506 304 576
+rect 364 506 374 576
+rect 234 504 268 506
+rect 122 448 268 504
+rect 296 500 374 506
+rect -52 442 36 448
+rect 234 416 300 448
+rect 234 390 410 416
+rect 242 340 410 390
+rect 446 262 498 638
+rect 42 36 76 132
+rect 280 6 354 50
+rect 364 10 408 204
+<< via1 >>
+rect -46 448 30 518
+rect 304 506 364 576
+<< metal2 >>
+rect -68 576 376 596
+rect -68 558 304 576
+rect -62 518 36 528
+rect -62 448 -46 518
+rect 30 448 36 518
+rect 296 506 304 530
+rect 364 530 376 576
+rect 364 506 374 530
+rect 296 500 374 506
+rect -62 440 36 448
+use grid  grid_2
+timestamp 1678218586
+transform 1 0 61 0 1 10
+box -61 -10 259 1053
+use grid  grid_3
+timestamp 1678218586
+transform 1 0 373 0 1 10
+box -61 -10 259 1053
+use sky130_fd_pr__nfet_01v8_NDWVGB  sky130_fd_pr__nfet_01v8_NDWVGB_1
+timestamp 1709840560
+transform 1 0 429 0 1 199
+box -73 -101 73 101
+use sky130_fd_pr__nfet_01v8_PLCS8W  sky130_fd_pr__nfet_01v8_PLCS8W_1
+timestamp 1709840337
+transform 1 0 155 0 1 262
+box -125 -176 125 176
+use sky130_fd_pr__pfet_01v8_52K3FE  sky130_fd_pr__pfet_01v8_52K3FE_1
+timestamp 1709840560
+transform 1 0 429 0 1 786
+box -109 -212 109 212
+use sky130_fd_pr__pfet_01v8_527QMA  sky130_fd_pr__pfet_01v8_527QMA_1
+timestamp 1709840706
+transform 1 0 155 0 1 760
+box -161 -212 161 212
+use via_m1_p  via_m1_p_0
+timestamp 1646951168
+transform 1 0 346 0 1 342
+box 0 0 68 68
+use via_m1_p  via_m1_p_1
+timestamp 1646951168
+transform 1 0 298 0 1 508
+box 0 0 68 68
+use via_m1_p  via_m1_p_2
+timestamp 1646951168
+transform 1 0 -38 0 1 446
+box 0 0 68 68
+<< labels >>
+rlabel metal1 280 6 354 50 1 vss
+rlabel metal1 288 984 348 1034 1 vdd
+rlabel space 92 412 122 610 1 a
+rlabel space 188 412 218 610 1 b
+rlabel metal1 508 430 610 464 1 out
+<< end >>
